@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Spells</name>
+        <update version="0.1.6">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/tashas-cauldron-of-everything/spells.xml" />
+        </update>
+    </info>
+
+
+    <element name="Blade of Disaster" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCE_SPELL_BLADE_OF_DISASTER">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p></p>
+            <p class="indent">You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. </p>
+            <p class="indent">On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8dl2 force damage (for a total of 12d12 force damage). </p>
+            <p class="indent">As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again. The blade can harmlessly pass through any barrier, including a wall of force.  </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
