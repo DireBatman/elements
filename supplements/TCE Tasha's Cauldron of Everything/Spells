@@ -3,7 +3,7 @@
     <info>
         <name>Spells</name>
         <update version="0.1.6">
-            <file name="spells.xml" url="https://raw.githubusercontent.com/DireBatman/elements/master/supplements/tashas-cauldron-of-everything/spells.xml" />
+            <file name="spells.xml" url="https://github.com/DireBatman/elements/blob/master/supplements/TCE%20Tasha's%20Cauldron%20of%20Everything/Spells" />
         </update>
     </info>
 
